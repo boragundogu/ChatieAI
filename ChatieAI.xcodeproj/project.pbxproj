@@ -26,6 +26,7 @@
 		09AD56152BE2E11D00D5B976 /* BubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleShape.swift; sourceTree = "<group>"; };
 		09AD56172BE2E13A00D5B976 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		09AD56192BE2E17200D5B976 /* ChatMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessages.swift; sourceTree = "<group>"; };
+		09AD561B2BE2E20E00D5B976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		09AD56032BE2E0C500D5B976 /* ChatieAI */ = {
 			isa = PBXGroup;
 			children = (
+				09AD561B2BE2E20E00D5B976 /* Info.plist */,
 				09AD56042BE2E0C500D5B976 /* ChatieAIApp.swift */,
 				09AD56062BE2E0C500D5B976 /* ContentView.swift */,
 				09AD56082BE2E0C600D5B976 /* Assets.xcassets */,
@@ -295,6 +297,7 @@
 				DEVELOPMENT_TEAM = D459R6RZK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatieAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +327,7 @@
 				DEVELOPMENT_TEAM = D459R6RZK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatieAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
