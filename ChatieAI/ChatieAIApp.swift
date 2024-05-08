@@ -12,6 +12,7 @@ struct ChatieAIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modifier(ThemeModifier())
         }
     }
 }

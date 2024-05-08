@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0998A6C12BE38C7F00574F4B /* ThemeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998A6C02BE38C7F00574F4B /* ThemeModifier.swift */; };
+		0998A6C52BE396F800574F4B /* MessageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998A6C42BE396F800574F4B /* MessageDetail.swift */; };
 		09AD56052BE2E0C500D5B976 /* ChatieAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AD56042BE2E0C500D5B976 /* ChatieAIApp.swift */; };
 		09AD56072BE2E0C500D5B976 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AD56062BE2E0C500D5B976 /* ContentView.swift */; };
 		09AD56092BE2E0C600D5B976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AD56082BE2E0C600D5B976 /* Assets.xcassets */; };
 		09AD560C2BE2E0C600D5B976 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AD560B2BE2E0C600D5B976 /* Preview Assets.xcassets */; };
 		09AD56142BE2E0FB00D5B976 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 09AD56132BE2E0FB00D5B976 /* GoogleGenerativeAI */; };
-		09AD56162BE2E11E00D5B976 /* BubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AD56152BE2E11D00D5B976 /* BubbleShape.swift */; };
-		09AD56182BE2E13A00D5B976 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AD56172BE2E13A00D5B976 /* MessageBubble.swift */; };
 		09AD561A2BE2E17200D5B976 /* ChatMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AD56192BE2E17200D5B976 /* ChatMessages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0998A6C02BE38C7F00574F4B /* ThemeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModifier.swift; sourceTree = "<group>"; };
+		0998A6C42BE396F800574F4B /* MessageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetail.swift; sourceTree = "<group>"; };
 		09AD56012BE2E0C500D5B976 /* ChatieAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatieAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AD56042BE2E0C500D5B976 /* ChatieAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatieAIApp.swift; sourceTree = "<group>"; };
 		09AD56062BE2E0C500D5B976 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09AD56082BE2E0C600D5B976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09AD560B2BE2E0C600D5B976 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		09AD56152BE2E11D00D5B976 /* BubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleShape.swift; sourceTree = "<group>"; };
-		09AD56172BE2E13A00D5B976 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		09AD56192BE2E17200D5B976 /* ChatMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessages.swift; sourceTree = "<group>"; };
 		09AD561B2BE2E20E00D5B976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,9 +65,9 @@
 				09AD56062BE2E0C500D5B976 /* ContentView.swift */,
 				09AD56082BE2E0C600D5B976 /* Assets.xcassets */,
 				09AD560A2BE2E0C600D5B976 /* Preview Content */,
-				09AD56152BE2E11D00D5B976 /* BubbleShape.swift */,
-				09AD56172BE2E13A00D5B976 /* MessageBubble.swift */,
 				09AD56192BE2E17200D5B976 /* ChatMessages.swift */,
+				0998A6C02BE38C7F00574F4B /* ThemeModifier.swift */,
+				0998A6C42BE396F800574F4B /* MessageDetail.swift */,
 			);
 			path = ChatieAI;
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 			files = (
 				09AD56072BE2E0C500D5B976 /* ContentView.swift in Sources */,
 				09AD561A2BE2E17200D5B976 /* ChatMessages.swift in Sources */,
-				09AD56162BE2E11E00D5B976 /* BubbleShape.swift in Sources */,
 				09AD56052BE2E0C500D5B976 /* ChatieAIApp.swift in Sources */,
-				09AD56182BE2E13A00D5B976 /* MessageBubble.swift in Sources */,
+				0998A6C12BE38C7F00574F4B /* ThemeModifier.swift in Sources */,
+				0998A6C52BE396F800574F4B /* MessageDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
